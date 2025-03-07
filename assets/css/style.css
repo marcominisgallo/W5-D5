@@ -2,11 +2,11 @@
 
 header {
     background-color: #FFC017;
-    border-bottom: 1px solid black ;
+    border-bottom: 0.5px solid black ;
 }
 
 div.first {
-    border-bottom: 1px solid black;
+    border-bottom: 0.5px solid black;
     display: flex;
     justify-content: space-between;
 
@@ -20,6 +20,7 @@ nav ul {
 
 ul li {
     list-style-type: none;
+    cursor: pointer;
 }
 
 div#logo {
@@ -116,7 +117,7 @@ main {
 
 #uno {
     margin-top: 2em;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(203, 203, 203);
 }
 
 main > article >img {
@@ -156,6 +157,7 @@ section div h3 {
     flex-direction: column;
     justify-content: space-between;
     height: 7em;
+    cursor: pointer;
 }
 
 .user img {
@@ -211,6 +213,7 @@ div.user {
     justify-content: space-between;
     align-items: end;
     margin-bottom: 2em;
+    cursor: pointer;
 }
 
 .user2 {
@@ -290,8 +293,10 @@ aside {
 #filter h5{
     font-size: 1em;
     font-weight: 700;
-    opacity: 0.8;
-    
+    opacity: 0.73;
+    margin-left: 3em;
+    margin-bottom: 2em;
+    margin-top: 1em;
 }
 
 #buttons {
@@ -299,18 +304,44 @@ aside {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(203, 203, 203);
     padding-bottom: 1em;
+    margin-left: 3em;
 }
 
 #filter button {
-    border: 1px solid #E6E7E7;
+    border: 1px solid rgb(188, 188, 188);
     border-radius: 5px;
     font-size: 1em;
     padding: 10px 5px;
     background-color: white;
     white-space: nowrap;
     margin: 5px 0;
+    opacity: 0.5;
+    cursor: pointer;
 }
 
+footer {
+    margin-left: 3em;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+footer ul li {
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 500;
+    font-size: 0.8em;
+    margin-right: 2em;
+    cursor: pointer;
+}
 
