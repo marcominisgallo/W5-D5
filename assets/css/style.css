@@ -408,6 +408,8 @@ footer ul li a {
 
     footer{
         margin-bottom: 1.5em;
+        display: flex;
+        justify-content: center;
     }
 
     #articles {
