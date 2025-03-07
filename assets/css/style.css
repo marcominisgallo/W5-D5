@@ -353,4 +353,67 @@ footer ul li a {
 }
 
 
+/*medium device*/
+
+@media screen and (max-width:800px) {
+    nav {
+        width: 70%;
+    }
+    nav button {
+        margin: 0.8em 2em 0.8em 0;
+        padding: 0.6em 1em;
+        margi
+    }
+
+    
+    div#title {
+        width: 75%;
+
+    }
+
+    #title h1 {
+        margin: 1em 0 0.2em 0;
+    }
+
+    #title h2 {
+        width: 70%;
+        margin-bottom: 1em;
+    }
+
+    div#svg {
+        width: 25%;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    #trending section {
+        width: 50%;
+    }
+
+    article#articles-aside {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    #filter h5,
+    #buttons,
+    footer {
+        margin-left: 0;
+    }
+
+    footer{
+        margin-bottom: 1.5em;
+    }
+
+    #articles {
+        width: 95%;
+    }
+}
+
 
